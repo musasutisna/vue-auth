@@ -1,0 +1,29 @@
+{
+  "name": "@musasutisna/vue-auth",
+  "version": "1.0.1",
+  "description": "make easier developed auth with vue",
+  "main": "index.js",
+  "author": {
+    "name": "Musa Sutisna",
+    "email": "musa.sutisna@gmail.com",
+    "url": "https://github.com/musasutisna"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/musasutisna/vue-auth#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musasutisna/vue-auth.git"
+  },
+  "keywords": [
+    "mikro-cms"
+  ],
+  "bugs": {
+    "url": "https://github.com/musasutisna/vue-auth/issues"
+  },
+  "dependencies": {
+    "@musasutisna/vue-axios": "^1.0.0",
+    "axios": "^1.7.5",
+    "pinia": "^2.2.2",
+    "vue": "^3.4.38"
+  }
+}

@@ -95,7 +95,7 @@ export const useAuthStore = defineStore('Auth', () => {
       { text: window.config.AUTH_LANG.LOGOUT_PROCESS }
     )
 
-    const resultLogout = await apiAuth.apiGET(window.config.AUTH_API_LOGOUT)
+    const resultLogout = await apiAuth.apiPOST(window.config.AUTH_API_LOGOUT)
 
     message.toToggleLoading(
       window.config.AUTH_API_LOGOUT,
